@@ -1,0 +1,34 @@
+import { Command } from 'lucide-react';
+const NavBar = () => {
+  return (
+    <header className='fixed cursor-pointer top-3.5 left-1/2 -translate-x-1/2 z-50 transition-all duration-300 rounded-full h-14 bg-[#1b1b1b] border border-white/10 scale-95 w-[90%] max-w-2xl'>
+      <div className='max-auto h-full px-6'>
+        <nav className='centered-row justify-between h-full'>
+          <div className='centered-row gap-2 hover:-translate-y-1 duration-200 transition-all ease-in-out'>
+            <Command className='w-5 h-5 text-indigo-400' />
+            <span className='font-bold text-base clash-display'>Forexxi</span>
+          </div>
+          <div className='hidden md:centered-row gap-6'>
+            {['Features', 'Prices', 'Testimonials'].map((item, index) => (
+              <a
+                key={index}
+                href='nav_link'
+                className='text-sm text-zinc-300 hover:text-indigo-300 hover:-translate-y-0.5 duration-300 transition-all ease-in-out'>
+                {item}
+              </a>
+            ))}
+            <button className='clash-display cursor-pointer text-base bg-gradient-to-r from-indigo-400 to-indigo-600 px-4 py-2 rounded-full hover:-translate-y-0.5 duration-300 transition-all ease-in-out hover:shadow-lg hover:shadow-indigo-900'>
+              Start Trading
+            </button>
+          </div>
+          {/* Mobile Navigation */}
+          <div className='md:hidden glass p-1 rounded-md'>
+            <img src='/menu.svg' alt='menu-icon' className='w-8' />
+          </div>
+        </nav>
+      </div>
+    </header>
+  );
+};
+
+export default NavBar;
