@@ -37,45 +37,45 @@ const features = [
 
 const testimonials = [
   {
-    name: 'Michael Chen',
+    name: 'John Doe',
     role: 'Professional Trader',
-    image: '/av1.png',
-    content:
+    image: '/coin1.png',
+    description:
       "The real-time market data and advanced trading features have significantly improved my trading performance. The platform's security measures give me peace of mind.",
   },
   {
-    name: 'Sarah Johnson',
+    name: 'Jane Smith',
     role: 'Crypto Fund Manager',
     image: null,
-    content:
-      "ForexTrade's institutional-grade tools have transformed our trading strategy. The API integration and automated features have saved us countless hours.",
+    description:
+      "Forexxi's institutional-grade tools have transformed our trading strategy. The API integration and automated features have saved us countless hours.",
   },
   {
-    name: 'David Wilson',
+    name: 'Michael Johnson',
     role: 'Early Forex Investor',
-    image: '/av2.png',
-    content:
+    image: '/coin2.png',
+    description:
       "The customer support is exceptional, and the platform's intuitive design made getting started with crypto trading seamless. A game-changer for both beginners and pros.",
   },
   {
-    name: 'Emily Zhang',
+    name: 'Emily Davis',
     role: 'DeFi Developer',
-    image: '/av4.png',
-    content:
-      "We've seen remarkable improvements in our trading efficiency since switching to ForexTrade. The smart order routing and liquidity aggregation are particularly impressive.",
+    image: '/coin4.png',
+    description:
+      "We've seen remarkable improvements in our trading efficiency since switching to Forexxi. The smart order routing and liquidity aggregation are particularly impressive.",
   },
   {
     name: 'James Rodriguez',
     role: 'Forex Security Expert',
-    image: '/av3.png',
-    content:
+    image: '/coin3.png',
+    description:
       "The security features are robust and the regular updates keep us ahead of emerging threats. It's exactly what the Forex industry needed.",
   },
   {
-    name: 'Lisa Thompson',
+    name: 'Olivia Wilson',
     role: 'Portfolio Manager',
-    image: '/av1.png',
-    content:
+    image: '/coin2.png',
+    description:
       "The platform's ability to handle complex trading strategies while maintaining simplicity in its interface is remarkable. It's been invaluable for our portfolio management.",
   },
 ];
