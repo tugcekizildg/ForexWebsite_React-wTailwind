@@ -1,6 +1,7 @@
 import HeroSection from '../sections/HeroSection';
 import LogoCarousel from '../sections/LogoCarousel';
 import FeaturesSection from '../sections/FeaturesSection';
+import PricingSection from '../sections/PricingSection';
 
 const HomePage = () => {
   return (
@@ -8,6 +9,7 @@ const HomePage = () => {
       <HeroSection />
       <LogoCarousel />
       <FeaturesSection />
+      <PricingSection />
     </div>
   );
 };
