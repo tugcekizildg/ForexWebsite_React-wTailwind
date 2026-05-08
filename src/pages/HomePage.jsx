@@ -3,6 +3,7 @@ import LogoCarousel from '../sections/LogoCarousel';
 import FeaturesSection from '../sections/FeaturesSection';
 import PricingSection from '../sections/PricingSection';
 import TestimonialsSection from '../sections/TestimonialsSection';
+import CTASection from '../sections/CTASection';
 
 const HomePage = () => {
   return (
@@ -12,6 +13,7 @@ const HomePage = () => {
       <FeaturesSection />
       <PricingSection />
       <TestimonialsSection />
+      <CTASection />
     </div>
   );
 };
